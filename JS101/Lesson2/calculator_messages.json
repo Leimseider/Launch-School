@@ -1,0 +1,10 @@
+{
+  "welcome": "Welcome to Calculator!",
+  "firstNumber": "What's the first number?",
+  "secondNumber": "What's the second number?",
+  "notNumber": "That's not a number!",
+  "selectOperator": "What do you want to do with these numbers?\nEnter 1 for addition.\nEnter 2 for subtraction.\nEnter 3 for multiplication.\nEnter 4 for division.",
+  "tryAgain": "Really? Let's try again.",
+  "performAgain": "Would you like to perform another calculation?\nEnter y to perform another calculation.\nEnter any other answer to end the program.",
+  "goodbye": "Goodbye!"
+}
