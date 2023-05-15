@@ -1,0 +1,27 @@
+{
+  "name": "launch-school",
+  "version": "1.0.0",
+  "description": "First Commit - setup from Cloud 9.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leimseider/Launch-School.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leimseider/Launch-School/issues"
+  },
+  "homepage": "https://github.com/Leimseider/Launch-School#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-cli": "^1.1.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

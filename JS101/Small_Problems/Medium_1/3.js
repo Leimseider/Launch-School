@@ -11,13 +11,14 @@ Finally, keep the first four digits fixed in place and rotate the final two digi
 function maxRotation(integer) {
   let rotatedNumber = [];
   let integerArray = integer.toString().split('');
-  let sliceArray = integerArray;
+  let sliceArray = integerArray.slice();
 
   for (let idx = 0; idx <= integerArray.length; idx++) {
     let newArray = sliceArray.slice(idx + 1);
     newArray.push(sliceArray[idx]);
     rotatedNumber.push(newArray[idx]);
-    sliceArray = newArray.unshift(rotatedNumber[idx]);
+    newArray.unshift(rotatedNumber[idx]);
+    sliceArray = newArray;
   }
   console.log(+rotatedNumber.join(''));
 }
